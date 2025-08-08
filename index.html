@@ -22,13 +22,15 @@
       <ul class="navlinks">
         <li><a href="index.html">Home</a></li>
         <li><a href="about.html">About</a></li>
-        <li><a href="admissions.html">Admissions</a></li>
+        <li><a href="admission.html">Admissions</a></li>
         <li><a href="academics.html">Academics</a></li>
         <li><a href="boarding.html">Boarding</a></li>
         <li><a href="news.html">News & Events</a></li>
         <li><a href="fees.html">Pay Fees</a></li>
       </ul>
     </div>
+
+    <div class="hamburger" id="hamburger">&#9776;</div>
   </header>
 
   <section class="hero">
@@ -172,15 +174,15 @@
     <h2>Leading British International School in Rivers & Nigeria</h2>
     <hr />
     <p>
-      Spring-Oak School was established in January 2025. As a result of our rich curriculum and the excellent academic performance of our students over the years, our school has become one of the most sought-after international schools in Lagos and all over Nigeria.
+      <b>Spring-Oak School</b> was established in January 2025. As a result of our rich curriculum and the excellent academic performance of our students over the years, our school has become one of the most sought-after international schools in Lagos and all over Nigeria.
     </p>
 
     <p>
-      At Spring-Oak we understand how boys and girls grow and learn. Therefore, we use a modern curriculum that makes learning easy for our students. Furthermore, all our teachers are certified, and our classes are equipped with state-of-art learning facilities.
+      At Spring-Oak we understand how boys and girls grow and learn. Therefore, we use a modern curriculum that makes learning easy for our students. <b>Furthermore, all our teachers are certified, and our classes are equipped with state-of-art learning facilities.</b>
     </p>
 
     <p>
-      Although we are one of the few British international schools in Nigeria that strictly run a British curriculum, we are proudly Nigerians. While we train our students to become global citizens, we celebrate the values and heritage of Nigeria.
+      Although we are one of the few British international schools in Nigeria that strictly run a British curriculum, we are proudly Nigerians. While we train our students to become global citizens, we celebrate the values and heritage of <b>Nigeria.</b>
     </p>
 
     <p>
@@ -412,6 +414,16 @@ observer.observe(document.querySelector('.counter-section'));
 
   showSlide(current);
 })();
+
+
+  const hamburger = document.getElementById('hamburger');
+  const navLinks = document.getElementById('navLinks');
+
+  hamburger.addEventListener('click', () => {
+    navLinks.classList.toggle('active');
+  });
+
+
 
 
 
