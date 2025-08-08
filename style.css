@@ -674,7 +674,7 @@ h1, .main-heading {
   font-size: 1.6rem;
 }
 
-.nav-logo img {
+.logo img {
   width: 100px;
 }
 
@@ -699,21 +699,13 @@ h1, .main-heading {
   }
 }
 
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 15px 20px;
-  background-color: #007B5E;
-  color: white;
-}
 
-.nav-links {
+.navlinks {
   display: flex;
   gap: 20px;
 }
 
-.nav-links a {
+.navlinks a {
   color: white;
   text-decoration: none;
   font-weight: bold;
@@ -727,7 +719,7 @@ h1, .main-heading {
 
 /* Show hamburger on small screens */
 @media (max-width: 768px) {
-.nav-links {
+.navlinks {
   display: none;
   flex-direction: column;
   background-color: #007B5E;
@@ -739,7 +731,7 @@ h1, .main-heading {
   padding: 20px 0;
 }
 
-.nav-links.active {
+.navlinks.active {
   display: flex;
 }
 
