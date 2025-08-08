@@ -1,4 +1,4 @@
-/* Reset and base styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -154,7 +154,7 @@ header {
 }
 
 @keyframes letterFade {
-  to {
+to{
     opacity: 1;
     transform: translateY(0);
   }
@@ -166,10 +166,10 @@ header {
 }
 
 .animated-texts{
-    font-family:'Courier New', Courier, monospace ;
-    font-weight: 600;
-    padding-top: 8px;
-    padding-bottom: 30px;
+  font-family:'Courier New', Courier, monospace ;
+  font-weight: 600;
+  padding-top: 8px;
+  padding-bottom: 30px;
 
 }
 
@@ -625,76 +625,77 @@ footer .copyright {
 
 /* For tablets and below */
 @media (max-width: 992px) {
-  .container {
-    width: 95%;
-  }
+.container {
+  width: 95%;
+}
 
-  nav ul {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-  }
 
-  .hero-content,
-  .featured-news,
-  .our-school,
-  .about-us,
-  .footer {
-    padding: 30px 15px;
-  }
+nav ul {
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
 
-  .counter-section {
-    flex-direction: column;
-    gap: 20px;
-  }
+.hero-content,
+.featured-news,
+.our-school,
+.about-us,
+.footer {
+  padding: 30px 15px;
+}
 
-  .testimonial {
-    font-size: 1rem;
-  }
+.counter-section {
+  flex-direction: column;
+  gap: 20px;
+}
 
-  .featured-box {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+.testimonial {
+  font-size: 1rem;
+}
 
-  .admission-section {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+.featured-box {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-  .admission-button {
-    align-self: flex-end;
-  }
+.admission-section {
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.admission-button {
+  align-self: flex-end;
+}
 }
 
 /* For phones and small screens */
 @media (max-width: 576px) {
-  h1, .main-heading {
-    font-size: 1.6rem;
-  }
+h1, .main-heading {
+  font-size: 1.6rem;
+}
 
-  .nav-logo img {
-    width: 100px;
-  }
+.nav-logo img {
+  width: 100px;
+}
 
-  .counter-box {
-    width: 100%;
-    margin-bottom: 20px;
-  }
+.counter-box {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
-  .testimonial {
-    font-size: 0.9rem;
-  }
+.testimonial {
+  font-size: 0.9rem;
+}
 
-  .about-us {
-    text-align: left;
-  }
+.about-us {
+  text-align: left;
+}
 
-  .footer-contact {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    gap: 10px;
+.footer-contact {
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
   }
 }
 
@@ -726,24 +727,24 @@ footer .copyright {
 
 /* Show hamburger on small screens */
 @media (max-width: 768px) {
-  .nav-links {
-    display: none;
-    flex-direction: column;
-    background-color: #007B5E;
-    position: absolute;
-    top: 60px;
-    right: 0;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-  }
+.nav-links {
+  display: none;
+  flex-direction: column;
+  background-color: #007B5E;
+  position: absolute;
+  top: 60px;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
 
-  .nav-links.active {
-    display: flex;
-  }
+.nav-links.active {
+  display: flex;
+}
 
-  .hamburger {
-    display: block;
+.hamburger {
+  display: block;
   }
 }
 
